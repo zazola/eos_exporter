@@ -4,7 +4,7 @@ descr:
 	@echo "You are building the EOS exporter binary."
 
 build:
-	go generate
+	#go generate
 	go build .
 
 run:
